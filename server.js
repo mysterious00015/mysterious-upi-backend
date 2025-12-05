@@ -10,7 +10,7 @@ app.use(bodyParser.json());
 // Temporary database in memory
 const payments = {};
 
-const UPI_ID = "officialanmolddrawings@okhdfcbank";
+const UPI_ID = "officialanmoldrawings@okhdfcbank";
 const MERCHANT_NAME = "OFFICIAL ANMOL DRAWINGS";
 
 function generatePaymentId() {
